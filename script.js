@@ -7,8 +7,13 @@ function multiply(num1, num2){
 }
 
 function capitalize(string){
-    lowerCase = string.toLowerCase();
-    upperCase = string[0].toUpperCase();
+    let lowerCase = string.toLowerCase();
+    let upperCase = string[0].toUpperCase();
     lowerCase = lowerCase.slice(1);
     return upperCase + lowerCase;
+}
+
+function lastLetter(string){ 
+    let letter = string.length - 1; 
+    return string[letter]; 
 }
